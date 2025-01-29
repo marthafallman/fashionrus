@@ -75,6 +75,7 @@ nav a:visited,
 nav a:link {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   font-size: 25px;
+  font-style: italic;
 }
 
 #banner {
@@ -112,6 +113,7 @@ li {
   text-decoration: none;
   list-style-type: none;
   font-size: 30px;
+  font-style: italic;
 }
 
 .category_list_container li {
