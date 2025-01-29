@@ -57,7 +57,7 @@ main {
 .category_list_container ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 70px;
+  gap: 50px;
   max-width: 1700px;
   padding: 30px;
   margin: 0 auto;
@@ -68,11 +68,13 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding-top: 1%;
+  align-items: center;
 }
 
 nav a:visited,
 nav a:link {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 25px;
 }
 
 #banner {
@@ -86,6 +88,7 @@ nav a:link {
 
 nav img {
   width: 200px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 .product_list_container a:link,
@@ -130,6 +133,8 @@ li {
 #sporting {
   background-size: cover;
   background-position: center;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 #accessories {
   background-image: url(../img/1555.webp);
@@ -174,7 +179,11 @@ a {
   font-weight: 700;
   font-family: "ivystyle-sans", sans-serif;
   font-style: normal;
-  color: rgb(0, 0, 0);
+  color: rgb(54, 54, 54);
+}
+
+h1 {
+  font-style: italic;
 }
 
 h2,
@@ -245,7 +254,9 @@ p {
     font-size: 40px;
   }
 
-  h2 {
+  h2,
+  nav a:visited,
+  nav a:link {
     font-size: 30px;
   }
 }
