@@ -1,0 +1,251 @@
+body {
+  background-color: rgb(255, 255, 255);
+  max-width: 2500px;
+}
+
+footer {
+  text-align: center;
+  align-content: center;
+  height: 300px;
+}
+
+footer img {
+  width: 200px;
+}
+
+.produkt {
+  background-color: #f7f7f7;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+select,
+button {
+  padding: 20px;
+  border: 1px solid #ddd; /* Ljusgrå kant */
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px; /* Rundade hörn */
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover,
+select:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+main {
+  margin-top: 5%;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 0.5rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+}
+
+.grid_1-1 h1 {
+  text-align: left;
+}
+
+.category_list_container ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 70px;
+  max-width: 1700px;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+
+nav a:visited,
+nav a:link {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#banner {
+  max-width: 100%;
+  margin-top: -5%;
+}
+
+#banner img {
+  aspect-ratio: 2/7;
+}
+
+nav img {
+  width: 200px;
+}
+
+.product_list_container a:link,
+.product_list_container a:visited {
+  width: 300px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+a:link,
+a:visited,
+li {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.category_list_container li {
+  width: 250px;
+  height: 500px;
+  text-decoration: none;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+#accessories,
+#apparel,
+#footwear,
+#freeitems,
+#personalcare,
+#sporting {
+  background-size: cover;
+  background-position: center;
+}
+#accessories {
+  background-image: url(../img/1555.webp);
+}
+#apparel {
+  background-image: url(../img/1572.webp);
+}
+
+#footwear {
+  background-image: url(../img/1543.webp);
+}
+#freeitems {
+  background-image: url(../img/1551.webp);
+}
+#personalcare {
+  background-image: url(../img/1557.webp);
+}
+
+#sporting {
+  background-image: url(../img/1558.webp);
+}
+
+img {
+  max-width: 90%;
+}
+
+article h2 {
+  font-weight: 700;
+}
+
+article {
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+h1,
+a {
+  text-align: center;
+  font-weight: 700;
+  font-family: "ivystyle-sans", sans-serif;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+h2,
+h3,
+p,
+label {
+  font-family: "ivystyle-sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.soldout {
+  opacity: 30%;
+}
+
+.oldprice {
+  text-decoration: line-through;
+}
+
+.newprice {
+  color: crimson;
+}
+.product_list_container {
+  background-color: rgb(241, 241, 241);
+  padding-top: 50px;
+}
+
+@media (min-width: 767px) {
+  .product_list_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  article {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 5;
+    gap: 0;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  p,
+  label {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 0em;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
