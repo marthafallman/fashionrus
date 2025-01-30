@@ -1,0 +1,56 @@
+{
+"gruppe":[
+
+
+{
+    "navn": {
+        "fornavn": "Märtha",
+        "efternavn": "Fallman"
+    },
+    "alder": 23,
+    "studerende": true,
+    "interesser": ["design", "mad", "tøj"],
+
+    "adresse": {
+        "vej": "Nordre Frihavnsgade 92",
+        "by": "København Ø",
+        "postnummer": 2100
+    },
+
+    "fødseldato": "2001-07-21"
+},
+
+{
+    "navn": {
+        "fornavn": "Andrea",
+        "efternavn": "Frost"
+    },
+    "alder": 31,
+    "studerende": true,
+    "interesser": ["Design", "Medier" , "Rejser"],
+    "adresse": {
+        "vej": "Hovedgaden 12",
+        "by": "København N",
+        "postnummer": "2200"
+    },
+    "fødselsdagsdato": "1993-09-19"
+},
+
+{
+    "navne": {
+        "fornavne": "Mie",
+        "mellemnavn": "Linnea",
+        "efternavn": "Bækgaard"
+    },
+    "alder": 21,
+    "studerende": true,
+    "interesser": ["Design", "Medier", "Rejser"],
+    "adresse": {
+        "vej": "Guldstjernevej 10",
+        "by": "København NV",
+        "postnummer": 2400
+    },
+    "fødselsdato": "22-04-2003"
+}
+]
+}
