@@ -1,5 +1,5 @@
 let ProductContainer = document.querySelector(".productcontainer");
-let productId = 1163;
+let productId = 1573;
 fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
   .then((response) => response.json())
   .then((data) => {
