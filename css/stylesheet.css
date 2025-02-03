@@ -122,14 +122,10 @@ main {
   text-align: left;
 }
 
-.category_list_container ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 50px;
-  max-width: 1700px;
-  padding: 30px;
-  margin: 0 auto;
-  background-color: #f7f7f7;
+.category_list_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
 }
 
 nav ul {
@@ -303,4 +299,11 @@ p {
   nav a:link {
     font-size: 30px;
   }
+}
+
+.category a:visited,
+.category a:link {
+  color: black;
+  font-size: 25px;
+  font-style: italic;
 }
