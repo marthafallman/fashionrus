@@ -12,7 +12,7 @@ function showList(data) {
       (product) =>
         `<article class="smallproduct">
           <div id="instock">
-            <a href="singleproduct.html">
+            <a href="singleproduct.html?id=${product.id}">
               <img src="https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp" alt="${product.productdisplayname}" />
             </a>
           </div>
